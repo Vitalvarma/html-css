@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 10, 10);
+    border-radius: 10%;
+}
+.nav:hover{
+    background: radial-gradient(red,orange);
+    border-radius: 10%;
+    transition: 0.5s;
+}
+.signature img{
+    width: 250px
+}
+.navelements{
+    display: flex;
+    gap: 20px;
+}
+.navelements h3:hover{
+    color: white;
+}
+.aboutme{
+    display: flex;
+    margin: 1%;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.matter{
+    margin-left: 1%;
+}
+.matter h2{
+    margin-bottom: 10px;
+}
+.image{
+    margin: 5%;
+    width: auto;
+    border-radius: 20%;
+}
+.image img{
+    height: 230px;
+    width: 230px;
+    border-radius: 20%;
+
+}
+.image img:hover{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 0;
+    transition: 1s;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    width: 300px;
+    height: 250px;
+    border: 4px solid;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 20px;
+}
+.box:hover{
+    background-color: rgb(123, 233, 79);
+    color: aquamarine;
+    border-radius: 50px;
+    transition: 1.5s;
+}
+.cerifications{
+    margin: 2%;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 1%;
+    display: flex;
+    height: 400px;
+}
+.cerification{
+    padding: 2%;
+    border-radius: 10%;
+}
+.cerification:hover{
+    background-color: antiquewhite;
+}
+.contactme{
+    margin: 1.5%;
+    padding: 1.5%;
+    background-color: pink;
+}
+.contactme h2{
+    margin-bottom: 5px;
+}
+.contactme p{
+    margin-bottom: 5px;
+}
+.contactme a img{
+    margin: 8px;
+    width: 25px;
+    height: 25px;
+}
+.contactme button{
+    background-color: black;
+    color: white;
+    height: 25px;
+    margin-left: 40%;
+}

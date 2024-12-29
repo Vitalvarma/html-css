@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: auto;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+    padding: 4%;
+    background: radial-gradient(white,orange);
+    border-radius: 20%;
+}
+.boxes{
+    margin: 4%;
+    padding: 2%;
+}
+.box{
+    height: 100px;
+    width: auto;
+    background: linear-gradient(orange,white);
+    padding: 3%;
+    border-radius: 20%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box:hover{
+    border-radius: 50%;
+    transition: 0.5s;
+    background: linear-gradient(white,orange);
+}
+.end{
+    margin: 4%;
+    display: flex;
+    padding: 4%;
+    background: radial-gradient(rgb(218, 216, 213),orange);
+    border-radius: 20%;
+}

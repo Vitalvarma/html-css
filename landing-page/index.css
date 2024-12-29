@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100;
+    color: rgb(10, 10, 10);
+}
+.upper-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    background:linear-gradient(pink,yellow);
+    border-radius: 50px;
+}
+.icons{
+    margin-left: 40px;
+}
+.icons img{
+    width: 30px;
+    height: auto;
+}
+.contact-details{
+    display: flex;
+    gap: 10px;
+}
+.contact-button{
+    margin-right: 20px;
+}
+.contact-button button{
+    background: linear-gradient(pink,yellow);
+    border-color: aliceblue;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.lower-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+.heading img{
+    height: 30px;
+}
+.pages{
+    display: flex;
+    gap: 20px;
+}
+.search-logo{
+    margin-right: 20px;
+}
+.search-logo img{
+    height: 30px;
+} 
+.main-section img{
+    width: 100%;
+    border-radius: 50px;
+    filter: blur(7px);
+    overflow-y: hidden;
+    z-index: -1;
+    position: relative;
+}
+.line{
+    width: 5px;
+    height: 250px;
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    border-radius: 5px;
+}
+.main-contents{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10%;
+    background: linear-gradient(pink,white,rgb(81, 213, 236));
+    border-radius: 50px;
+}
+.in-aboutus button{
+    background: linear-gradient(pink,white,rgb(81, 213, 236));
+    border-color: aliceblue;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.img-stocks img{
+    border-radius: 10px;
+} 
+.our-services{
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+.in-our-services img{
+    z-index: -1;
+    position: relative;
+}
+.in-our-services h3{
+    font-size: small;
+    margin-left: 65px;
+}
+#our{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.thanku{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 4%;
+    border-radius: 50px;
+}
+
+
